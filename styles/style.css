@@ -255,10 +255,80 @@ color: rgb(231, 111, 81);
     margin-bottom:15px;
     
 }
+/* Here is a question section */
+.question{
+    width:85%;
+        margin:0 auto;
+        margin-top:160px;
+        text-align: center;
+        
+}
+.question-description{
+    margin-bottom:112px
+}
+.ask{
+    color: #E76F51;
+}
+.question-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.question-img img{
+    width:90%;
+}
+.question-img{
+    width:30%;
+    
+}
+.question-container{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:13px; 
+    
+}
+.question-content{
+   
+    border-radius: 5px;
+   border: 1px solid #D5E5FB;
+   background: #FFF;
+   padding:20px 24px;
+   text-align: left;
+}
+.content-1{
+    height: 203px;
+}
+.content-1 p{
+    padding-right:100px;
+}
 
+.he{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:8px;
+
+}
+.he h5{
+    width:80%;
+
+}
+.question-content h5{
+    color: #383838;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 @media screen and (max-width:576px){
+    .p-style{
+        font-size:0.8rem;
+    }
    .menu-bar{
     display: flex;
    }
@@ -267,6 +337,9 @@ color: rgb(231, 111, 81);
    }
    .banner {
     flex-direction: column;
+}
+.tittle-style{
+    line-height: 50px;
 }
 .banner-description {
     width:100%;
@@ -347,5 +420,54 @@ color: rgb(231, 111, 81);
     width: 100%;
     margin: 0 auto;
     margin-bottom:24px;
+}
+.question{
+    margin-top:66px;
+}
+.question-description {
+    /* border: 1px solid red; */
+    margin-bottom: 23px;
+    /* text-align: center; */
+}
+.question-description h1 {
+    margin: 0 auto;
+    width: 77%;
+}
+.question-box {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.question-img {
+    margin-bottom: 74px;
+    width: 100%;
+}
+.question-img img {
+    width: 100%;
+}
+.question-container {
+    width: 100%;
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+.content-1 {
+    height: 100%;
+}
+.content-1 p{
+    padding-right:0px;
+}
+.question-content h5 {
+    color: #383838;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-content {
+    padding: 16px;
+    text-align: left;
 }
 }
